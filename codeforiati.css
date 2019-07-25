@@ -2,5 +2,6 @@ body {
   background-color: #ececec;
 }
 .jumbotron {
-    padding: 2rem 1rem;
+  padding: 2rem 1rem;
+  background-color: transparent;
 }
