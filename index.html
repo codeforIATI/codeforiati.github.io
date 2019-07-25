@@ -8,22 +8,47 @@
     <link rel="icon" href="/favicon.ico">
     <title>Code for IATI</title>
     <link rel="canonical" href="https://codeforiati.github.io">
-    <style>
-      body {
-        background-color: #ececec;
-      }
-      img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 192px;
-        height: 77px;
-        margin-top: -38px;
-        margin-left: -96px;
-      }
-    </style>
+    <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
+    <link href="codeforiati.css" rel="stylesheet">
   </head>
   <body>
-    <a href="https://docs.google.com/document/d/1QtChR3JiUCD3USa7UnrMPIZszQ1N8cPCX5LxooODttg/edit"><img src="i/logo.png" alt="Code for IATI" /></a>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://codeforiati.org">Tools <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="https://docs.google.com/document/d/1QtChR3JiUCD3USa7UnrMPIZszQ1N8cPCX5LxooODttg/edit"><img src="i/logo.png" alt="Code for IATI" /></a>
+      </div>
+      <div class="jumbotron">
+      <p class="lead">Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.</p>
+      </div>
+      <div class="row marketing">    
+          
+        <div class="col-lg-12">
+          <div class="filterDiv tools users"><p><a href="https://docs.google.com/document/d/1QtChR3JiUCD3USa7UnrMPIZszQ1N8cPCX5LxooODttg/edit">Monthly Tech call</a> - a monthly call with 5 minute presentations to share new IATI tech.</p></div>
+          
+          <div class="filterDiv tools users"><p><a href="https://github.com/codeforIATI/iatikit">IATIkit</a> -  toolkit for using IATI data. It includes a query language wrapper around XPath, to make dealing with disparate IATI versions easier.</p></div>
+        
+          <div class="filterDiv tools publishers users"><p><a href="https://org-id-finder.codeforiati.org">Org ID finder</a> - a tool to help users to find the IDs for IATI organisations.</p></div>
+        
+          <div class="filterDiv tool users"><p><a href="https://iati-data-dump.codeforiati.org">IATI data dump</a> - a daily snapshot of all IATI data (and metadata) on the IATI Registry, also downloadable via dropbox.</p></div>
+        
+          <div class="filterDiv tool users"><p><a href="https://iati-transformer.herokuapp.com/">IATI transformer</a> - a tool to transform IATI v1.0x data to the latest version of the IATI standard.</p></div>
+            
+          <div class="filterDiv tool users"><p><a href="http://aidonspreadsheets.brough.io/">Aid on spreadsheets</a> - a tool that produces IATI data in spreadsheet format targeted at aid recipient governments.</p></div>
+        
+          <div class="filterDiv guidance"><p><a href="http://bd-iati.github.io/documentation/">IATI in AIMS</a> - guidance on current approaches to integrating IATI data into aid recipient country systems.</p></div>
+        </div> 
+      </div>
+
+    <script src="https://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
