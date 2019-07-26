@@ -1,14 +1,17 @@
-# Code for IATI
+# Code for IATI website
 
 ## Installation
 
-This is a jekyll site.
+This is a [Jekyll](https://jekyllrb.com/) site, hosted on [GitHub Pages](https://pages.github.com/).
 
-Jekyll installation instructions are here:
-https://jekyllrb.com/docs/installation/
+To install locally, you’ll first need [Ruby](https://www.ruby-lang.org) and [bundler](https://bundler.io). Then run:
 
-…then run:
-
+```shell
+bundle install
 ```
+
+Once that’s done, you can start a local development server with:
+
+```shell
 jekyll serve
 ```
