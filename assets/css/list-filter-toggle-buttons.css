@@ -1,0 +1,9 @@
+	.show{
+		display: block;
+	}
+	.no_show{
+		display: none;
+	}
+	.filterButton{
+		padding: .4rem .75rem;
+	}
