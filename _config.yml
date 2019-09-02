@@ -2,3 +2,6 @@ exclude:
   - CNAME
   - CODE_OF_CONDUCT.md
   - README.md
+
+description: Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.
+title: Code for IATI

@@ -5,20 +5,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.">
+    <meta name="description" content="{{ site.description }}">
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
-    <title>Code for IATI</title>
+    <title>{{ site.title }}</title>
     <link rel="canonical" href="{{ site.github.url }}">
     <link href="//v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="//v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
     <link href="/assets/css/codeforiati.css" rel="stylesheet">
 
-    <meta property="og:site_name" content="Code for IATI">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.github.url }}/assets/img/logo.png">
+
+    <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:url" content="{{ site.github.url }}">
-    <meta property="og:title" content="Code for IATI">
+    <meta property="og:title" content="{{ site.title }}">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.github.url }}/assets/img/logo.png">
   </head>
   <body>
     <div class="container">
@@ -33,7 +39,7 @@
             </li>
           </ul>
         </nav>
-        <a href="{{ site.github.url }}"><img src="/assets/img/logo.png" alt="Code for IATI" /></a>
+        <a href="{{ site.github.url }}"><img src="/assets/img/logo.png" alt="{{ site.title }}" /></a>
       </div>
       <div class="jumbotron">
       <p class="lead">Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.</p>
