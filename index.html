@@ -1,37 +1,49 @@
+---
+---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.">
-    <meta name="author" content="">
+    <meta name="description" content="{{ site.description }}">
     <link rel="icon" href="/favicon.ico">
-    <title>Code for IATI</title>
-    <link rel="canonical" href="https://codeforiati.org">
-    <link href="//v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
-    <link href="assets/css/codeforiati.css" rel="stylesheet">
-    <link href="assets/css/list-filter-toggle-buttons.css" rel="stylesheet">
+    <title>{{ site.title }}</title>
+    <link rel="canonical" href="{{ site.github.url }}">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="{{ site.github.url }}/assets/css/codeforiati.css?v={{ site.github.build_revision }}" rel="stylesheet">
+    <link href="{{ site.github.url }}/assets/css/list-filter-toggle-buttons.css?v={{ site.github.build_revision }}" rel="stylesheet">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
+
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:url" content="{{ site.github.url }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
   </head>
-  
+
   <body>
     <div class="container">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills float-right">
             <li class="nav-item">
-              <a class="nav-link active" href="https://codeforiati.org">Tools <span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="{{ site.github.url }}">Tools <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link disabled" href="#">Blog</a>
             </li>
           </ul>
         </nav>
-        <a href="https://codeforiati.org"><img src="assets/img/logo.png" alt="Code for IATI" /></a>
+        <a href="{{ site.github.url }}"><img src="{{ site.github.url }}/assets/img/logo.png?v={{ site.github.build_revision }}" alt="{{ site.title }}" /></a>
       </div>
 
     <div class="jumbotron">
-    <p class="lead">Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.</p>
+    <p class="lead">{{ site.description }}</p>
     </div>
 
        <div class="btn-group btn-group-toggle" data-toggle="buttons" id="filter_options_1">
@@ -70,26 +82,15 @@
 
       <div class="row marketing">
         <div class="col-lg-12">
-          <div class="filterDiv no_show tools publishers users technical non-technical"><p><a href="https://docs.google.com/document/d/1QtChR3JiUCD3USa7UnrMPIZszQ1N8cPCX5LxooODttg/edit">Monthly Tech call</a> - a monthly call with 5 minute presentations to share new IATI tech.</p></div>
-
-          <div class="filterDiv no_show tools users technical"><p><a href="https://iatikit.readthedocs.io">iatikit</a> -  toolkit for using IATI data. It includes a query language wrapper around XPath, to make dealing with disparate IATI versions easier.</p></div>
-
-          <div class="filterDiv no_show tools publishers users non-technical"><p><a href="https://org-id-finder.codeforiati.org">Org ID finder</a> - a tool to help users to find the IDs for IATI organisations.</p></div>
-
-          <div class="filterDiv no_show tools users technical"><p><a href="https://iati-data-dump.codeforiati.org">IATI data dump</a> - a daily snapshot of all IATI data (and metadata) on the IATI Registry, also downloadable via dropbox.</p></div>
-
-          <div class="filterDiv no_show tools publishers users technical"><p><a href="https://iati-transformer.herokuapp.com/">IATI transformer</a> - a tool to transform IATI v1.0x data to the latest version of the IATI standard.</p></div>
-
-          <div class="filterDiv no_show tools users non-technical"><p><a href="http://spreadsheets.aidonbudget.org/">Aid on spreadsheets</a> - a tool that produces IATI data in spreadsheet format targeted at aid recipient governments.</p></div>
-
-          <div class="filterDiv no_show guidance users technical"><p><a href="http://bd-iati.github.io/documentation/">IATI in AIMS</a> - guidance on current approaches to integrating IATI data into aid recipient country systems.</p></div>
+          {% for project in site.projects %}
+          <div class="filterDiv no_show{% for tag in project.tags %} {{ tag }}{% endfor %}"><p><a href="{{ project.link }}">{{ project.title }}</a> - {{ project.content | remove: '<p>' | remove: '</p>' }}</p></div>
+          {% endfor %}
         </div>
       </div>
-
-    <script src="//v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    </div>
     <script src="//code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="assets/scripts/list-filter-toggle-buttons.js"></script>
+    <script src="{{ site.github.url }}/assets/scripts/list-filter-toggle-buttons.js?v={{ site.github.build_revision }}"></script>
   </body>
 </html>
