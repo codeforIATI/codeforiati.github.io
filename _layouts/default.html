@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="/favicon.ico">
+    <title>{{ site.title }}</title>
+    <link rel="canonical" href="{{ site.github.url }}">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="{{ site.github.url }}/assets/css/codeforiati.css?v={{ site.github.build_revision }}" rel="stylesheet">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
+
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:url" content="{{ site.github.url }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ site.github.url }}/">Tools{% if page.url == '/' %} <span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/assets/img/logo.png?v={{ site.github.build_revision }}" alt="{{ site.title }}" /></a>
+      </div>
+
+      {{ content }}
+    </div>
+  </body>
+</html>
