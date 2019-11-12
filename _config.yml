@@ -15,3 +15,9 @@ defaults:
       path: ""
     values:
       layout: default
+
+navigation:
+  - title: Tools
+    url: /
+  - title: Blog
+    url: /blog/
