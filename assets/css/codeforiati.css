@@ -1,6 +1,6 @@
 /* Space out content a bit */
 body {
-  padding-top: 1.5rem;
+  /* padding-top: 1.5rem; */
   padding-bottom: 1.5rem;
   background-color: #ececec;
 }
@@ -37,6 +37,13 @@ body {
   border-bottom: .05rem solid #e5e5e5;
   padding: 0 1rem;
   background-color: transparent;
+}
+.jumbotron p.lead {
+  font-size: 1.8rem;
+}
+
+.posts .post {
+  margin: 10px auto 10px auto;
 }
 
 /* Supporting marketing content */
