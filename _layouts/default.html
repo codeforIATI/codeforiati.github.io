@@ -23,27 +23,38 @@
     <meta property="og:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
   </head>
   <body>
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills float-right">
+    <nav class="navbar navbar-light bg-light navbar-expand-lg header">
+      <div class="container">
+        <a class="navbar-brand" href="{{ site.github.url }}/">
+          <img src="{{ site.github.url }}/assets/img/logo.png?v={{ site.github.build_revision }}" alt="{{ site.title }}" width="100px" />
+        </a>
+        <button type="button" aria-label="Toggle navigation" aria-controls="navbar-collapse" aria-expanded="false" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbar-collapse" class="navbar-collapse collapse" style="display: none;">
+          <ul class="nav nav-pills ml-auto ">
             {% for item in site.navigation %}
             <li class="nav-item">
               <a class="nav-link{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}{% if page.url == item.url %} <span class="sr-only">(current)</span>{% endif %}</a>
             </li>
             {% endfor %}
           </ul>
-        </nav>
-        <a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/assets/img/logo.png?v={{ site.github.build_revision }}" alt="{{ site.title }}" /></a>
+        </div>
       </div>
-
+    </nav>
+    <div class="container">
       {{ content }}
     </div>
 
     <footer class="footer">
       <div class="container">
-      <hr />
-        <a class="text-muted" href="/code-of-conduct">Code of Conduct</a>
+        <hr />
+        <div class="row">
+          <div class="col-md-6">
+            <a class="text-muted" href="/code-of-conduct">Code of Conduct</a>
+          </div>
+          <div class="col-md-6 ml-auto text-right">
+            <a class="text-muted" href="https://github.com/codeforIATI/codeforiati.github.io/">Edit on Github</a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
