@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello, world!
+title: Hello, World!
 comments: true
 excerpt: Welcome to Code for IATI! Learn more about what we're trying to do and how you can get involved.
 ---
