@@ -13,5 +13,5 @@ bundle install
 Once that’s done, you can start a local development server with:
 
 ```shell
-jekyll serve
+bundle exec jekyll serve
 ```
