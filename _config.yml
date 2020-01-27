@@ -25,6 +25,8 @@ defaults:
 
 navigation:
   - title: Projects
+    slug: project
     url: /
   - title: Blog
+    slug: blog
     url: /blog/
