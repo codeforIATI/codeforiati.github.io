@@ -2,6 +2,7 @@
 layout: post
 title: Hello, World!
 comments: true
+author: codeforiati
 excerpt: Welcome to Code for IATI! Learn more about what we're trying to do and how you can get involved.
 ---
 

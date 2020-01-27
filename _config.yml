@@ -30,3 +30,12 @@ navigation:
   - title: Blog
     slug: blog
     url: /blog/
+
+authors:
+  codeforiati:
+    name: Code for IATI
+    display_name: Code for IATI
+    email: hello@codeforiati.org
+    web: https://codeforiati.org
+    twitter: codeforiati
+    github: codeforiati
