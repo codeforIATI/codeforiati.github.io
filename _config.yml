@@ -4,8 +4,15 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-description: Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.
 title: Code for IATI
+description: Tools and guidance contributed by community members, in support of IATI infrastructure, publishers and data users.
+
+# Build settings
+permalink: /blog/:year/:month/:day/:title/
+pagine_path: "blog/page:num"
+paginate: 10
+
+gems: [jekyll-paginate]
 
 collections:
   - projects
