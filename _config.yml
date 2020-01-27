@@ -24,7 +24,7 @@ defaults:
       layout: default
 
 navigation:
-  - title: Tools
+  - title: Projects
     url: /
   - title: Blog
     url: /blog/
