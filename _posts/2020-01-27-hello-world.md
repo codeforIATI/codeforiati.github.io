@@ -6,7 +6,7 @@ author: codeforiati
 excerpt: Welcome to Code for IATI! Learn more about what we're trying to do and how you can get involved.
 ---
 
-Welcome to [Code for IATI](https://codeforiati.org)! This website (and [a Github repository](https://github.com/codeforiati)) has been set up to bring together tools and techniques that members of the IATI community regularly make use of when working with IATI data. Some of the tools are solving quite specific or niche problems, but many others are commonly required for interpreting IATI data or for building tools that use IATI data.
+Welcome to [Code for IATI](https://codeforiati.org)! This website (and [corresponding Github page](https://github.com/codeforiati)) has been set up to bring together tools and techniques that members of the IATI community regularly make use of when working with IATI data. Some of the tools are solving quite specific or niche problems, but many others are commonly required for interpreting IATI data or for building tools that use IATI data.
 
 By bringing them together in one place, with a brief description of each, we hope to make it easier for us all to share and discover these tools, as well as to sustainably maintain them.
 
