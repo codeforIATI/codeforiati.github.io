@@ -15,11 +15,11 @@ One option is to simply use annual averages, but in environments where currencie
 
 ## Building a service for supporting use at country level
 
-For building IATI integrations in Bangladesh and Liberia, we therefore settled on another approach. We set [up a service](https://morph.io/markbrough/exchangerates-scraper) to extract exchange rates data from the **U.S. Federal Reserve (FRED)**, containing daily data for a number of currencies. It also captures monthly averages data from the **OECD** in a broader range of currencies and for a longer historical period, which can be used as a fallback option. The service checks for new data from both sources each night and puts all the data into a single dataset. This can either be downloaded as a spreadsheet, or accessed via an API which developers can query (for example, “give me only the new rates since the last time I checked”).
+For building IATI integrations in Bangladesh and Liberia, we therefore settled on another approach. We set [up a service](https://morph.io/markbrough/exchangerates-scraper) to extract exchange rates data from the [**U.S. Federal Reserve (FRED)**](https://fred.stlouisfed.org/categories/94), containing daily data for a number of currencies. It also captures monthly averages data from the [**OECD**](https://stats.oecd.org/) in a broader range of currencies and for a longer historical period, which can be used as a fallback option. The service checks for new data from both sources each night and puts all the data into a single dataset. This can either be downloaded as a spreadsheet, or accessed via an API which developers can query (for example, “give me only the new rates since the last time I checked”).
 
 We also set up a [simple online exchange rates calculator](https://exchangerates.codeforiati.org/) so you can see how it works.
 
-## Selecting the best date
+## Selecting the best rate from multiple sources
 
 As the dataset contains exchange rates data from multiple sources, we need some logic in the target system to decide which source to use. For example: we prefer FRED rates (as they are daily rates, and so more accurate), and then fall back to using OECD rates (which are monthly), if no FRED exchange rate is available within a reasonable timeframe.
 
