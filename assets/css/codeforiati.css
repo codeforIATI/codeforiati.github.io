@@ -24,6 +24,26 @@ body {
   line-height: 3rem;
 }
 
+.img-caption {
+  max-width: 50%;
+  float: right;
+  margin: 10px;
+  border: 1px solid #bbbbbb;
+}
+.img-caption img {
+  max-width: 100%;
+}
+.img-caption p.caption {
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+.img-caption p.caption-no-url {
+  color: #000000;
+}
+
 /* Customize container */
 @media (min-width: 48em) {
   .container {
