@@ -38,3 +38,17 @@ authors:
     email: hello@codeforiati.org
     web: https://codeforiati.org
     github: codeforiati
+  mark:
+    name: Mark Brough
+    display_name: Mark
+    email: hello@codeforiati.org
+    web: https://codeforiati.org
+    twitter: mark_brough
+    github: markbrough
+  andy:
+    name: Andy Lulham
+    display_name: Andy
+    email: hello@codeforiati.org
+    web: https://codeforiati.org
+    twitter: andylolz
+    github: andylolz
