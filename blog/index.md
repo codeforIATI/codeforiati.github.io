@@ -13,6 +13,9 @@ title: Blog
             <p>
               <a href="{{ post.url }}">Read Post &raquo;</a>
             </p>
+            {% if forloop.index < site.posts.size %}
+            <hr />
+            {% endif %}
         </div>
     {% endfor %}
 </div>
