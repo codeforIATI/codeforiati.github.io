@@ -28,20 +28,20 @@ body {
   max-width: 50%;
   float: right;
   margin: 10px;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #bbb;
 }
 .img-caption img {
   max-width: 100%;
 }
 .img-caption p.caption {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 10px;
   font-size: 0.8rem;
   font-style: italic;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .img-caption p.caption-no-url {
-  color: #000000;
+  color: #000;
 }
 
 /* Customize container */
@@ -63,7 +63,7 @@ body {
 }
 
 .posts .post {
-  margin: 10px auto 10px auto;
+  margin: 10px auto;
 }
 
 /* Supporting marketing content */

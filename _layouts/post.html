@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}
+    <p class="post-meta">{{ page.date | date_to_long_string: "ordinal" }}
         {% if page.author %} • <i>by</i>
             {% for pauthor in page.author %}{% if forloop.first == false %}, {% endif %}
             {% assign author = site.authors[pauthor] %}

@@ -9,7 +9,7 @@ description: Tools and guidance contributed by community members, in support of 
 
 # Build settings
 permalink: /blog/:year/:month/:day/:title/
-pagine_path: "blog/page:num"
+paginate_path: "blog/page:num"
 paginate: 10
 
 gems: [jekyll-paginate]
