@@ -1,8 +1,6 @@
 ---
 layout: blog
 title: Blog
-permalink: /blog/
-order: 1
 ---
 
 <div class="row marketing">
