@@ -40,8 +40,8 @@
         <a class="navbar-brand" href="{{ site.github.url }}/">
           <img src="{{ site.github.url }}/assets/img/logo.png?v={{ site.github.build_revision }}" alt="{{ site.title }}" width="100px" />
         </a>
-        <button type="button" aria-label="Toggle navigation" aria-controls="navbar-collapse" aria-expanded="false" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-        <div id="navbar-collapse" class="navbar-collapse collapse" style="display: none;">
+        <button type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-label="Toggle navigation" aria-controls="navbar-collapse" aria-expanded="false" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbar-collapse" class="navbar-collapse collapse">
           <ul class="nav nav-pills ml-auto ">
             {% assign current = page.url | split: '/' %}
 
@@ -93,5 +93,8 @@
         </div>
       </div>
     </footer>
+    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
