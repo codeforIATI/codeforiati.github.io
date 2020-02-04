@@ -11,7 +11,7 @@ title: Blog
             <span class="description">{{ include.post.description }}</span>
             {{ post.excerpt | markdownify }}
             <p>
-              <a href="{{ post.url }}">Read Post &raquo;</a>
+              <a class="btn btn-primary" href="{{ post.url }}">Read post &raquo;</a>
             </p>
             {% if forloop.index < site.posts.size %}
             <hr />
