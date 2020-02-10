@@ -4,8 +4,8 @@ title: "Working with data in multiple currencies: exchange rates data"
 comments: true
 author: mark
 excerpt: This post discusses tools developed to make it easier to use data published in different currencies.
-image: /img/posts/screenshot-exchange-rate-calculator.png
-imageCaption: "Exchange rates calculator, with links to underlying dataset"
+image: /assets/img/posts/screenshot-exchange-rate-calculator.png
+imageCaption: Exchange rates calculator, with links to underlying dataset
 imageURL: "https://exchangerates.codeforiati.org"
 ---
 
