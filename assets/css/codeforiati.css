@@ -39,6 +39,7 @@ body {
   font-size: 0.8rem;
   font-style: italic;
   margin-bottom: 0;
+  text-align: center;
 }
 .img-caption p.caption-no-url {
   color: #000;
