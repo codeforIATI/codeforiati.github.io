@@ -30,6 +30,9 @@ navigation:
   - title: Blog
     slug: blog
     url: /blog/
+  - title: Get Involved
+    slug: get-involved
+    url: /get-involved/
 
 authors:
   codeforiati:
