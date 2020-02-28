@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date_to_long_string: "ordinal" }}
+        {% if page.author %} • <i>by</i>
+            {% for pauthor in page.author %}{% if forloop.first == false %}, {% endif %}
+            {% assign author = site.authors[pauthor] %}
+            {% if author.twitter %}<a href="http://twitter.com/{{ author.twitter }}">{% endif %}
+            {{ author.name }}{% if author.twitter %}</a>{% endif %}{% endfor %}
+    {% endif %}
+    {% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+    {% if page.image %}
+    <div class="img-caption">
+        {% if page.imageURL %}<a href="{{ page.imageURL }}">{% endif %}
+        <img src="{{ page.image }}" />
+        <p class="caption {% if page.imageURL == null %}caption-no-url{% endif %}">{{ page.imageCaption }}</p>
+        {% if page.imageURL %}</a>{% endif %}
+    </div>
+    {% endif %}
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
