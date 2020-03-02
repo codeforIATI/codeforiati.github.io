@@ -1,5 +1,5 @@
 ---
-title: IATI Datsastore
+title: IATI Datastore
 tags:
     - tools
 link: https://iatidatastore.iatistandard.org/ 
