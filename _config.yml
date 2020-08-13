@@ -12,9 +12,8 @@ permalink: /blog/:year/:month/:day/:title/
 paginate_path: "blog/page:num"
 paginate: 10
 
-gems: [jekyll-paginate]
-
 plugins:
+  - jekyll-paginate
   - jekyll-feed
 
 collections:
