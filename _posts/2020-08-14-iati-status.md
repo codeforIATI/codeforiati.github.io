@@ -3,7 +3,7 @@ layout: post
 title: A status dashboard for IATI services
 comments: true
 author: andy
-excerpt: Welcome to Code for IATI! Learn more about what we're trying to do and how you can get involved.
+excerpt: Sometimes, web services break. They stop working. For all sorts of reasons. This code runs automated tests on various IATI services, to check they are performing as expected.
 ---
 
 Sometimes, web services break. They stop working. For all sorts of reasons.
