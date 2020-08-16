@@ -15,7 +15,7 @@ A server fails; Some piece of data gets corrupted; something unexpected causes a
 
 These incidents are unpredictable, and can cause disruption for service users. So it’s common for online service owners to automatically monitor the status of their services, as well as provide a public dashboard that shows the current status. This ensures issues are caught as early as possible, and incidents are communicated and dealt with transparently.
 
-[Facebook has one](https://developers.facebook.com/status/dashboard/). [Twitter has one](https://api.twitterstat.us/). [Dropbox has one](https://status.dropbox.com/). [Github has one](https://www.githubstatus.com/). In fact: check it yourself. Think of an online service, and then do a search for their status dashboard. Chances are, you’ll probably find one.
+[Facebook has one](https://developers.facebook.com/status/dashboard/). [Twitter has one](https://api.twitterstat.us/). [Dropbox has one](https://status.dropbox.com/). [Github has one](https://www.githubstatus.com/). In fact: check it yourself. Think of an online service, and then do a search for their status dashboard. Chances are, you’ll probably find one. Technical users of these services that notice an issue will frequently check the status dashboard as their first port of call. If the problem has been flagged there, it’s clear it’s a known issue and is in hand. If it hasn’t, it might be worth investigating further, or alerting the service to a possibly uncaught issue.
 
 IATI provides a number of services, but there’s no central status dashboard. So we had a go at making one. It’s here:
 
