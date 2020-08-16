@@ -1,8 +1,16 @@
+---
+---
+
 /* Space out content a bit */
 body {
   /* padding-top: 1.5rem; */
   padding-bottom: 1.5rem;
   background-color: #ececec;
+}
+
+blockquote {
+  border-left: 5px lightgrey solid;
+  padding-left: 10px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -16,12 +24,13 @@ body {
 .header {
   padding-bottom: 1rem;
   border-bottom: .05rem solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 3rem;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3rem;
+  }
 }
 
 .img-caption {
@@ -29,26 +38,20 @@ body {
   float: right;
   margin: 10px;
   border: 1px solid #bbb;
-}
-.img-caption img {
-  max-width: 100%;
-}
-.img-caption p.caption {
-  background-color: #fff;
-  padding: 10px;
-  font-size: 0.8rem;
-  font-style: italic;
-  margin-bottom: 0;
-  text-align: center;
-}
-.img-caption p.caption-no-url {
-  color: #000;
-}
 
-/* Customize container */
-@media (min-width: 48em) {
-  .container {
-    max-width: 46rem;
+  img {
+    max-width: 100%;
+  }
+  p.caption {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  p.caption-no-url {
+    color: #000;
   }
 }
 
@@ -58,9 +61,10 @@ body {
   border-bottom: .05rem solid #e5e5e5;
   padding: 0 1rem;
   background-color: transparent;
-}
-.jumbotron p.lead {
-  font-size: 1.8rem;
+
+  p.lead {
+    font-size: 1.8rem;
+  }
 }
 
 .posts .post {
@@ -70,13 +74,18 @@ body {
 /* Supporting marketing content */
 .marketing {
   margin: 3rem 0;
-}
-.marketing p + h4 {
-  margin-top: 1.5rem;
+
+  p + h4 {
+    margin-top: 1.5rem;
+  }
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
+@media (min-width: 48em) {
+  /* Customize container */
+  .container {
+    max-width: 46rem;
+  }
   /* Remove the padding we set earlier */
   .header,
   .marketing {
