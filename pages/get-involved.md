@@ -5,7 +5,6 @@ permalink: /get-involved/
 excerpt: Learn how to get involved in Code for IATI.
 ---
 
-
 There are many different ways you can get involved.
 
 * Want to chat? Join us on IRC: [https://webchat.freenode.net/#codeforiati](https://webchat.freenode.net/#codeforiati)
