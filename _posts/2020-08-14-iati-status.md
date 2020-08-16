@@ -19,7 +19,7 @@ IATI provides a number of services, but there’s no central status dashboard. S
 It’s here:
 [https://status.codeforiati.org/](https://status.codeforiati.org/)
 
-It’s based on [open source code](https://github.com/IATI/IATI-Website-Tests) created by the IATI secretariat. This code runs automated tests on various IATI services, to check they are performing as expected. For example:
+It’s based on [open source code](https://github.com/IATI/IATI-Website-Tests) created by the IATI Secretariat's technical team [a number of years ago](https://github.com/IATI/IATI-Website-Tests/graphs/contributors). This code runs automated tests on various IATI services, to check they are performing as expected. For example:
 
 it checks the dashboard appears to have been updated recently
 It checks the validator correctly identifies some invalid XML as such
@@ -30,4 +30,4 @@ We took this code, fixed a couple of bugs, scheduled it to run daily, and added 
 
 ![Current status](https://status.codeforiati.org/status.svg)
 
-It’s easy enough to extend with new checks. For example, d-portal tests are minimal, and there are no tests in place for the new datastore or new validator. We think this is a fundamental service that should be provided by a web service provider. We’d be pleased if the IATI secretariat adopted this.
+It’s easy enough to extend with new checks. For example, d-portal tests are minimal, and there are no tests in place for the new datastore or new validator. We think this is a fundamental service that should be provided by all service providers, to inform users of any issues in using different services. We’d be very happy for the IATI Secretariat to adopt this, if they (and their users) find it useful!
