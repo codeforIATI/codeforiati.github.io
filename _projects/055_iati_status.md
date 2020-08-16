@@ -1,5 +1,5 @@
 ---
-title: IATI Service Monitor
+title: IATI Status
 tags:
     - tools
     - users
