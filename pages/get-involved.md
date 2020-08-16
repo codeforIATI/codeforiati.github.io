@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Get involved
 permalink: /get-involved/
 excerpt: Learn how to get involved in Code for IATI.
