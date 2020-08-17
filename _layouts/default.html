@@ -12,29 +12,16 @@
 
     {% feed_meta %}
 
-    {% if page.collection == 'posts' %}
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{% if page.url == '/'%}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{{ page.excerpt }}">
     <meta name="twitter:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:url" content="{{ site.github.url }}{{ page.url }}">
-    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:title" content="{% if page.url == '/'%}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ page.excerpt }}">
     <meta property="og:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
-    {% else %}
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{ site.title }}" />
-    <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:url" content="{{ site.github.url }}">
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
-    {% endif %}
   </head>
   <body>
     <nav class="navbar navbar-light bg-light navbar-expand-lg header">
