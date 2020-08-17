@@ -3,7 +3,7 @@ layout: post
 title: A status dashboard for IATI services
 comments: true
 author: andy
-excerpt: Sometimes, web services break. They stop working. For all sorts of reasons. This code runs automated tests on various IATI services, to check they are performing as expected.
+excerpt: Sometimes, web services break. When that happens, it’s helpful to be made aware as soon as possible.
 image: /assets/img/posts/screenshot-status.png
 imageCaption: Screenshot of the status dashboard
 imageURL: "https://status.codeforiati.org"
