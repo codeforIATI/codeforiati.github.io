@@ -17,10 +17,10 @@ layout: default
 
     {% if page.image %}
     <div class="img-caption">
-        {% if page.imageURL %}<a href="{{ page.imageURL }}">{% endif %}
+        {% if page.image_url %}<a href="{{ page.image_url }}">{% endif %}
         <img src="{{ page.image }}" />
-        <p class="caption {% if page.imageURL == null %}caption-no-url{% endif %}">{{ page.imageCaption }}</p>
-        {% if page.imageURL %}</a>{% endif %}
+        <p class="caption {% if page.image_url == null %}caption-no-url{% endif %}">{{ page.image_caption }}</p>
+        {% if page.image_url %}</a>{% endif %}
     </div>
     {% endif %}
   <article class="post-content">

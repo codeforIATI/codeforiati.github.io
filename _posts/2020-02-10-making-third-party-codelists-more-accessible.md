@@ -7,8 +7,8 @@ author:
  - andy
 excerpt: This post introduces a new site to access replicated codelists, which may be useful for those using IATI data.
 image: /assets/img/posts/screenshot-codelists.png
-imageCaption: The French version of the replicated codelists site
-imageURL: "https://codelists.codeforiati.org"
+image_caption: The French version of the replicated codelists site
+image_url: "https://codelists.codeforiati.org"
 ---
 
 When using IATI data, there are a number of reference codelists that are needed to make sense of the data. Some of these codelists are controlled by IATI directly, but others are controlled by a number of other organisations: for example, the [Country](https://reference.iatistandard.org/codelists/Country) codelist (the [ISO-managed list of countries](https://www.iso.org/obp/ui#iso:pub:PUB500001:en)) or the [Sector](https://reference.iatistandard.org/codelists/Sector) codelist (the [OECD DAC list of Purpose Codes](https://www.oecd.org/development/financing-sustainable-development/development-finance-standards/dacandcrscodelists.htm)).

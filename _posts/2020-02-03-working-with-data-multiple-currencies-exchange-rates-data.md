@@ -5,8 +5,8 @@ comments: true
 author: mark
 excerpt: This post discusses tools developed to make it easier to use data published in different currencies.
 image: /assets/img/posts/screenshot-exchange-rate-calculator.png
-imageCaption: Exchange rates calculator, with links to underlying dataset
-imageURL: "https://exchangerates.codeforiati.org"
+image_caption: Exchange rates calculator, with links to underlying dataset
+image_url: "https://exchangerates.codeforiati.org"
 ---
 
 IATI data is published in different currencies by different organisations - data often comes out of each organisation’s own financial system. That’s great, because it provides a great deal of detail and precision, but it also presents a challenge for data users. In order to compare data published in different currencies, we need to convert to a common or "base" currency.
