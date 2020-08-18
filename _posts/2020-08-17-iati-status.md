@@ -27,7 +27,7 @@ It’s based on [open source code](https://github.com/IATI/IATI-Website-Tests) c
  * It checks the dashboard appears to have been updated recently
  * It checks the validator correctly identifies some invalid XML as such
 
-We took this code, fixed a couple of bugs, scheduled it to run daily (though running more frequently would be preferable) and added [a public website](https://status.codeforiati.org/) so anyone can see the current status. We also added [an RSS feed](https://status.codeforiati.org/feed.xml), and a badge that shows the status right now:
+We took this code, fixed a couple of bugs ([#144](https://github.com/IATI/IATI-Website-Tests/pull/144), [#147](https://github.com/IATI/IATI-Website-Tests/pull/147), [#148](https://github.com/IATI/IATI-Website-Tests/pull/148), [#149](https://github.com/IATI/IATI-Website-Tests/pull/149)), scheduled it to run daily (though running more frequently would be preferable) and added [a public website](https://status.codeforiati.org/) so anyone can see the current status. We also added [an RSS feed](https://status.codeforiati.org/feed.xml), and a badge that shows the status right now:
 
 ![Current status](https://status.codeforiati.org/status.svg)
 
