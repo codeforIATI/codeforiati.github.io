@@ -55,6 +55,12 @@ blockquote {
   }
 }
 
+@media (max-width: 767px) {
+  .img-caption {
+    max-width: 100%;
+  }
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
