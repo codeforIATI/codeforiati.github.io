@@ -2,9 +2,7 @@
 layout: post
 title: Code of Conduct
 permalink: /code-of-conduct/
-excerpt: In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone […]
+excerpt: In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone […]
 ---
 # Contributor Covenant Code of Conduct
 
