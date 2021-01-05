@@ -24,6 +24,7 @@ blockquote {
 .header {
   padding-bottom: 1rem;
   border-bottom: .05rem solid #e5e5e5;
+  margin-bottom: 2rem;
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -64,7 +65,7 @@ blockquote {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
+  border-bottom: 0;
   padding: 0 1rem;
   background-color: transparent;
 
@@ -97,13 +98,5 @@ blockquote {
   .marketing {
     padding-right: 0;
     padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 2rem;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
   }
 }
