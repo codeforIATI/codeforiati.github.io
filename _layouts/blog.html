@@ -4,7 +4,15 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="lead">Occasional updates on projects we're working on.</p>
+      </div>
+      <div class="col-md-4 text-md-right">
+        <a class="btn btn-secondary" href="/feed.xml">RSS Feed</a>
+      </div>
+    </div>
   </header>
   <article class="post-content">
     {{ content }}
