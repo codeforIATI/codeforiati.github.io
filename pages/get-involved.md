@@ -21,6 +21,6 @@ We are keen to [list additional tools on the Code for IATI site](https://codefor
 * include contributor guidelines;
 * make clear who is responsible for maintaining the software, whether volunteers, a company, or the IATI Secretariat via official support.
 
-If your project meets these criteria, please send a _Pull Request_ adding a new file for your project [in this folder](https://github.com/codeforIATI/codeforiati.github.io/tree/master/_projects). (If you're not sure how to do this, get in touch!)
+If your project meets these criteria, please send a _Pull Request_ adding a new file for your project [in this folder](https://github.com/codeforIATI/codeforiati.github.io/tree/gh-pages/_projects). (If you're not sure how to do this, get in touch!)
 
 (note, we also have a [Code of Conduct](https://codeforiati.org/code-of-conduct))
