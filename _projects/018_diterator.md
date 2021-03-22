@@ -7,4 +7,4 @@ tags:
 link: https://github.com/davidmegginson/diterator
 ---
 
-Python library for reading IATI activities from D-Portal API or an XML file. Wraps the XML with objects.
+Python3 library for reading IATI activities from D-Portal or an XML file/URL. Wraps the XML with Python objects.
