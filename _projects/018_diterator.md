@@ -1,5 +1,5 @@
 ---
-title: DIterator - easy IATI activity access for Python3.
+title: DIterator - easy IATI activity access for Python3
 tags:
     - tools
     - library
