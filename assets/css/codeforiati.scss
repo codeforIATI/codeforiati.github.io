@@ -87,6 +87,11 @@ blockquote {
   }
 }
 
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /* Responsive: Portrait tablets and up */
 @media (min-width: 48em) {
   /* Customize container */

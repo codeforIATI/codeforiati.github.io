@@ -9,7 +9,7 @@
     <div class="card border-light">
         {% for post in site.posts limit:1 %}
         <div class="card-body">
-            <h5 class="card-title">{{ post.title }}</h5>
+            <h5 class="card-title"><span class="badge badge-pill badge-primary">Blog post</span> <a class="link-unstyled" href="{{ post.url }}">{{ post.title }}</a></h5>
             <h6 class="text-muted">{{ post.date | date_to_long_string: "ordinal" }}</h6>
             <p>{{ post.excerpt | markdownify }}</p>
             <p>
