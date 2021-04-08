@@ -71,7 +71,7 @@ Once we’ve tested a little more, we would like to make clear commitments aroun
 * Properly implemented CORS ([#100](https://github.com/codeforIATI/iati-datastore/pull/100))
 * Added search on titles and descriptions ([#168](https://github.com/codeforIATI/iati-datastore/pull/168))
 * Recipient region, country and sector also search transactions by default now ([#117](https://github.com/codeforIATI/iati-datastore/pull/117))
-* Cleaned up branches
+* Cleaned up git branches
 * Added further tests, and we now have an accurate reflection of test coverage (90%)
 * Updated codelists ([#95](https://github.com/codeforIATI/iati-datastore/pull/95))
 * Fixed a bug with hierarchies ([#114](https://github.com/codeforIATI/iati-datastore/pull/114))
