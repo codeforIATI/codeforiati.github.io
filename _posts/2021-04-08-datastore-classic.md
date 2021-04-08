@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Datastore Classic
+title: Introducing Datastore Classic
 comments: true
 author:
   - andy
