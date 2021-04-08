@@ -1,5 +1,5 @@
 ---
-title: CodeforIATI Dashboard
+title: Code for IATI Dashboard
 tags:
     - tools
 link: https://dashboard.codeforiati.org
