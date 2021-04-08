@@ -6,7 +6,7 @@ author: andy
 excerpt: Sometimes, web services break. When that happens, it’s helpful to be made aware as soon as possible.
 image: /assets/img/posts/screenshot-status.png
 image_caption: Screenshot of the status dashboard
-image_url: "https://status.codeforiati.org"
+image_url: "https://iati-status.codeforiati.org"
 ---
 
 Sometimes, web services break. They stop working. For all sorts of reasons.
@@ -19,7 +19,7 @@ These incidents are unpredictable, and can cause disruption for service users. S
 
 IATI provides a number of services, but there’s no central status dashboard. So we had a go at making one. It’s here:
 
-> [https://status.codeforiati.org](https://status.codeforiati.org)
+> [https://iati-status.codeforiati.org](https://iati-status.codeforiati.org)
 
 It’s based on [open source code](https://github.com/IATI/IATI-Website-Tests) created by the IATI Secretariat's technical team [a number of years ago](https://github.com/IATI/IATI-Website-Tests/graphs/contributors). This code runs automated tests on various IATI services, to check they are performing as expected. For example:
 
@@ -27,8 +27,8 @@ It’s based on [open source code](https://github.com/IATI/IATI-Website-Tests) c
  * It checks the dashboard appears to have been updated recently
  * It checks the validator correctly identifies some invalid XML as such
 
-We took this code, fixed a couple of bugs ([#144](https://github.com/IATI/IATI-Website-Tests/pull/144), [#147](https://github.com/IATI/IATI-Website-Tests/pull/147), [#148](https://github.com/IATI/IATI-Website-Tests/pull/148), [#149](https://github.com/IATI/IATI-Website-Tests/pull/149)), scheduled it to run daily (though running more frequently would be preferable) and added [a public website](https://status.codeforiati.org/) so anyone can see the current status. We also added [an RSS feed](https://status.codeforiati.org/feed.xml), and a badge that shows the status right now:
+We took this code, fixed a couple of bugs ([#144](https://github.com/IATI/IATI-Website-Tests/pull/144), [#147](https://github.com/IATI/IATI-Website-Tests/pull/147), [#148](https://github.com/IATI/IATI-Website-Tests/pull/148), [#149](https://github.com/IATI/IATI-Website-Tests/pull/149)), scheduled it to run daily (though running more frequently would be preferable) and added [a public website](https://iati-status.codeforiati.org/) so anyone can see the current status. We also added [an RSS feed](https://iati-status.codeforiati.org/feed.xml), and a badge that shows the status right now:
 
-![Current status](https://status.codeforiati.org/status.svg)
+![Current status](https://iati-status.codeforiati.org/status.svg)
 
 It’s easy enough to extend with new checks. For example, d-portal tests are minimal, and there are no tests in place for the new datastore or new validator. We think this is a fundamental service that should be provided by all service providers, to catch problems early, and inform users of known issues quickly. We’d be very happy for the IATI Secretariat to adopt this, if they (and their users) find it useful!
