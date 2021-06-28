@@ -36,10 +36,8 @@ We hope that new tools will be added regularly and anyone can submit them. We’
 
 Well, it’s up to you!
 
-* Want to chat? Join us on IRC: [https://webchat.freenode.net/#codeforiati](https://webchat.freenode.net/#codeforiati)
-* Want to talk? Join us for the (approximately) monthly community calls (we’ll announce the next one on [IATI Discuss](https://discuss.iatistandard.org/latest), on [IRC](https://webchat.freenode.net/#codeforiati) and on [Twitter](https://twitter.com/search?q=%23iati&f=live))
+* Want to chat? Join us on Discord: [https://discord.gg/hdH5bEXePM](https://discord.gg/hdH5bEXePM)
+* Want to talk? Join us for the (approximately) monthly community calls (we’ll announce the next one on [IATI Discuss](https://discuss.iatistandard.org/latest), on [Discord](https://discord.gg/hdH5bEXePM) and on [Twitter](https://twitter.com/search?q=%23iati&f=live))
 * Want to suggest improvements or flag issues with tools? [Add them on Github](https://github.com/codeforIATI)
-* Want to suggest a new tool or idea? [See all existing ideas, or create a new issue here](https://github.com/codeforIATI/iati-ideas/issues)
+* Want to suggest a new tool or idea? [See all existing ideas, or create a new issue here](https://ideas.codeforiati.org)
 * Want to to email us? [hello@codeforiati.org](mailto:hello@codeforiati.org)
-
-
