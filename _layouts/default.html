@@ -22,6 +22,22 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ page.excerpt }}">
     <meta property="og:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["disableCookies"]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//matomo.codeforiati.org/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
   </head>
   <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-light bg-light navbar-expand-lg header">
