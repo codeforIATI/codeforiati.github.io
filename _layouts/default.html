@@ -22,6 +22,22 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ page.excerpt }}">
     <meta property="og:image" content="{{ site.github.url }}/assets/img/logo-square.png?v={{ site.github.build_revision }}">
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["disableCookies"]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//matomo.codeforiati.org/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
   </head>
   <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-light bg-light navbar-expand-lg header">
@@ -73,7 +89,8 @@
         <div class="row">
           <div class="col-md-6">
             <span class="text-muted">Site generated at {{ 'now' | date: "%e %B %Y %H:%M %Z" }}</span><br />
-            <a class="text-muted" href="{{ site.github.url }}/code-of-conduct">Code of Conduct</a>
+            <a class="text-muted" href="{{ site.github.url }}/code-of-conduct">Code of Conduct</a><br />
+            <a class="text-muted" href="{{ site.github.url }}/privacy-policy">Privacy Policy</a>
           </div>
           <div class="col-md-6 ml-auto text-right">
             <a class="text-muted" href="{{ site.github.repository_url }}">Edit on Github</a>
