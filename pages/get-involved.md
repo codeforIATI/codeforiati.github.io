@@ -10,7 +10,7 @@ There are many different ways you can get involved.
 * Want to chat? Join us on [Discord](https://discord.gg/hdH5bEXePM), or on [Twitter](https://twitter.com/search?q=%23iati&f=live)
 * Want to suggest improvements or flag issues with tools? [Add them on Github](https://github.com/codeforIATI)
 * Want to suggest a new tool or idea? [See all existing ideas, or create a new issue here](https://github.com/codeforIATI/iati-ideas/issues)
-* Want to to email us? [hello@codeforiati.org](mailto:hello@codeforiati.org)
+* Prefer to email us? [hello@codeforiati.org](mailto:hello@codeforiati.org)
 
 ### Adding a tool to Code for IATI
 
