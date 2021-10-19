@@ -16,7 +16,7 @@ There are many different ways you can get involved.
 
 We are keen to [list additional tools on the Code for IATI site](https://codeforiati.org/) (or host them on the [Code for IATI Github organisation](https://github.com/codeforiati) if requested) as long as they:
 * are open source;
-* somehow related to IATI data (even loosely);
+* somehow relate to IATI data (even loosely);
 * include contributor guidelines;
 * make clear who is responsible for maintaining the software, whether volunteers, a company, or the IATI Secretariat via official support.
 
