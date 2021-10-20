@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IATI Data Bugtracker
+title: Introducing IATI Data Bugtracker
 comments: true
 author:
   - andy
