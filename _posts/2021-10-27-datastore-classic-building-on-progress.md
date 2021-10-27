@@ -5,7 +5,7 @@ comments: true
 author:
   - mark
 excerpt: An update on progress and use of Datastore Classic over recent months, and a recommendation to continue support in the coming year.
-image: /assets/img/posts/screenshot-datastore-classic.png
+image: /assets/img/posts/screenshot-datastore-classic-2.png
 image_caption: IATI Datastore Classic
 image_url: "https://datastore.codeforiati.org"
 ---
