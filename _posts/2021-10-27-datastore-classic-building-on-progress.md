@@ -19,7 +19,7 @@ On 30th June 2021, the [IATI Secretariat announced that the official (v2) IATI D
 
 It’s great that the community was able to help out, but ultimately, the services that users are relying on need to be properly supported, and that means they need to be paid for. We also need to provide continuity of service for users of IATI data - doing everything we can to avoid breaking users’ systems - so that users know that their investments in using IATI data will be worthwhile.
 
-For these reasons, in July 2021, IATI’s Data Use Working Group (DUWG) [began supporting Datastore Classic](https://iaticonnect.org/discussion/datastore-outage-duwg). On behalf of the DUWG, UNDP quickly contracted [Open Data Services Cooperative](https://opendataservices.coop/) to host and maintain Datastore Classic for an initial period of five months.
+For these reasons, in July 2021, IATI’s Governing Board approved support for Datastore Classic, and IATI’s Data Use Working Group (DUWG) [began supporting Datastore Classic](https://iaticonnect.org/discussion/datastore-outage-duwg). On behalf of the DUWG, UNDP quickly contracted [Open Data Services Cooperative](https://opendataservices.coop/) to host and maintain Datastore Classic for an initial period of five months.
 
 ## Providing a reliable service at low cost
 
