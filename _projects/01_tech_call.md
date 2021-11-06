@@ -4,6 +4,7 @@ tags:
     - tools
     - users
 link: https://docs.google.com/document/d/1QtChR3JiUCD3USa7UnrMPIZszQ1N8cPCX5LxooODttg/edit
+hidden: true
 ---
 
 A monthly call with 5 minute presentations to share new IATI tech.
