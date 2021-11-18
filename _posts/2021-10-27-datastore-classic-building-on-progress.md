@@ -39,7 +39,7 @@ In September, with only limited promotion, Datastore Classic recorded 1,212 visi
 
 Data on the activities of specific donors has also been downloaded in CSV format, including: EC - INTPA, France - AFD, IMF, Ireland - DFAT, Netherlands - MFA, UK - FCDO, UNDP, UNITAID, and USAID. Finally, there have been a range of more specific queries, from closed activities in Kenya, to activities in Palestine funded by Germany.
 
-We’ve also been handling redirects from queries that were previously going to the IATI Datastore. Around 100 requests for data from the IATI Datastore were successfully handled by Datastore Classic, including requests for data from Haiti, the Netherlands, Somalia and Sudan.
+We’ve also been handling redirects from queries that were previously going to the IATI Datastore, for XML data. In September, around 100 requests for data from the IATI Datastore were successfully handled by Datastore Classic, including requests for data from Haiti, the Netherlands, Somalia and Sudan.
 
 ## Ensuring continuity of service with no gaps
 
